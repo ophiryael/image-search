@@ -1,0 +1,35 @@
+.drawerContainer {
+  height: calc(100% - 64px);
+  width: 300px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background-color: #fff;
+  box-shadow: -2px 0 2px -2px rgba(0, 0, 0, 0.2);
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.drawerContainer.open {
+  transform: translateX(0);
+}
+
+.historyItemsList {
+  display: flex;
+  flex-direction: column;
+}
+
+.noHistoryContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.clearHistoryBtnContainer {
+  display: flex;
+  justify-content: flex-end;
+}

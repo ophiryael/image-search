@@ -1,0 +1,18 @@
+.creditsContainer {
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+  color: #fff;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.link:hover {
+  color: #fff;
+}

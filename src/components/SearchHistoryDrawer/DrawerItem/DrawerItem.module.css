@@ -1,0 +1,27 @@
+.drawerItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.drawerItem:hover {
+  background-color: #eee;
+}
+
+.searchTerm {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.searchDetails {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchDetails span:first-child {
+  margin-bottom: 5px;
+}

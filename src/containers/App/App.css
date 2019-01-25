@@ -1,0 +1,7 @@
+header {
+  height: 64px;
+}
+
+main {
+  height: calc(100% - 64px);
+}
